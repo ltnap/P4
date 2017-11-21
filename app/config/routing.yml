@@ -1,3 +1,7 @@
+ml_booking:
+    resource: "@MLBookingBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
